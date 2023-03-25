@@ -1,0 +1,55 @@
+/*
+@Author Harvey Sun
+@Date 2023-3-20
+@Loc Beijing, China
+*/
+.blog {
+    width: 100%;
+    /* 高度如果不设置, 就取决于里面的内容高度的综合 */
+    padding: 20px;
+}
+
+.blog .title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 0;
+    font-family: STXihei;
+}
+
+.blog .date {
+    text-align: center;
+    color: rgb(0,0,0);
+    padding: 10px 0;
+    font-family: Tahoma;
+}
+
+.blog .desc {
+    text-indent: 2em;
+    font-family: 黑体;
+    line-height: 150%;
+    font-size: 18px;
+}
+
+.blog a {
+    /* 设置成块级元素，方便设置尺寸和边距 */
+    display: block;
+    width: 140px;
+    height: 40px;
+    margin: 10px auto;
+    border: 1px black solid;
+
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 楷体;
+    /* 过渡效果 */
+    transition: all 0.5s;
+}
+
+/* 伪类选择器 表示光标移动到元素上的效果 */
+.blog a:hover {
+    background: rgb(97, 84, 84);
+    color: #fff;
+}

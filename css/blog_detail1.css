@@ -1,0 +1,44 @@
+/*
+@Author Harvey Sun
+@Date 2023-3-20
+@Loc Beijing, China
+*/
+.blog-content {
+    padding: 30px;
+}
+
+.blog-content h1 {
+    text-align: center;
+    font-family: 华文中宋;
+    font-size: 36px;
+    color:rgb(220,48,35);
+}
+
+.blog-content h2 {
+    text-align: center;
+    font-family: 华文中宋;
+    font-size: 28px;
+}
+
+.blog-content h3 {
+    text-align: center;
+    padding: 20px 0;
+    font-family: 华文中宋;
+    font-size: 24px;
+}
+
+.blog-content .date {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    font-family: Georgia;
+}
+
+.blog-content p {
+    text-indent: 2em;
+    padding: 10px 0;
+    font-family: "Times New Roman",仿宋;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 150%;
+}
